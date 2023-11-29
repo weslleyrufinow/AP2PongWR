@@ -28,6 +28,12 @@ public class GameManager : MonoBehaviour
     private GameState currentState;
     private CommandType command;
 
+    public GameState State{
+        get{
+            return currentState;
+        }
+    }
+
     void Start()
     {
         command = CommandType.play;

@@ -33,7 +33,7 @@ public class BallScript : MonoBehaviour
     {
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
-        rb.position = new Vector3(0, 1, 0);
+        rb.position = Vector3.zero;
     }
 
     // Update is called once per frame
